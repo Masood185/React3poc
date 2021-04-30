@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React3poc/static/css/main.1cd345c6.chunk.css",
+    "main.js": "/React3poc/static/js/main.03d3cdf7.chunk.js",
+    "main.js.map": "/React3poc/static/js/main.03d3cdf7.chunk.js.map",
+    "runtime-main.js": "/React3poc/static/js/runtime-main.771f2d8b.js",
+    "runtime-main.js.map": "/React3poc/static/js/runtime-main.771f2d8b.js.map",
+    "static/css/2.639c579c.chunk.css": "/React3poc/static/css/2.639c579c.chunk.css",
+    "static/js/2.53beb816.chunk.js": "/React3poc/static/js/2.53beb816.chunk.js",
+    "static/js/2.53beb816.chunk.js.map": "/React3poc/static/js/2.53beb816.chunk.js.map",
+    "static/js/3.aca19fd5.chunk.js": "/React3poc/static/js/3.aca19fd5.chunk.js",
+    "static/js/3.aca19fd5.chunk.js.map": "/React3poc/static/js/3.aca19fd5.chunk.js.map",
+    "index.html": "/React3poc/index.html",
+    "static/css/2.639c579c.chunk.css.map": "/React3poc/static/css/2.639c579c.chunk.css.map",
+    "static/css/main.1cd345c6.chunk.css.map": "/React3poc/static/css/main.1cd345c6.chunk.css.map",
+    "static/js/2.53beb816.chunk.js.LICENSE.txt": "/React3poc/static/js/2.53beb816.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/React3poc/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.771f2d8b.js",
+    "static/css/2.639c579c.chunk.css",
+    "static/js/2.53beb816.chunk.js",
+    "static/css/main.1cd345c6.chunk.css",
+    "static/js/main.03d3cdf7.chunk.js"
+  ]
+}
