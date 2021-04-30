@@ -17,13 +17,13 @@ const loadUser = async () => {
 
   $("nav").show();
  
-    const result = await axios.get("http://testingapi.ap-south-1.elasticbeanstalk.com/api/products");
+    const result = await axios.get("https://pocwebapi.azure-api.net/getuserlist");
     setUser(result.data.reverse());
     $('#myTable').DataTable();
   };
 
   const deleteUser = async id => {
-    await axios.delete(`http://testingapi.ap-south-1.elasticbeanstalk.com/api/products/${id}`);
+    await axios.delete(`https://pocwebapi.azure-api.net/getuserlist/${id}`);
     loadUser();
   };
 
