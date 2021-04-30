@@ -17,13 +17,13 @@ const loadUser = async () => {
 
   $("nav").show();
  
-    const result = await axios.get("https://webhook.site/398eb299-b2fa-4c3a-95df-e57b5e48cf22");
+    const result = await axios.get("http://testingapi.ap-south-1.elasticbeanstalk.com/api/products");
     setUser(result.data.reverse());
     $('#myTable').DataTable();
   };
 
   const deleteUser = async id => {
-    await axios.delete(`https://my-json-server.typicode.com/Masood185/masoodfakeapi/users/${id}`);
+    await axios.delete(`http://testingapi.ap-south-1.elasticbeanstalk.com/api/products/${id}`);
     loadUser();
   };
 

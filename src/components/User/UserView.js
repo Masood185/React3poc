@@ -21,7 +21,7 @@ const UserView=()=>{
     });
 
     const loadUser=async ()=>{
-      const result=await axios.get(`https://my-json-server.typicode.com/Masood185/masoodfakeapi/users/${id}`,user);
+      const result=await axios.get(`http://testingapi.ap-south-1.elasticbeanstalk.com/api/products/${id}`,user);
       SetUser(result.data);
     }
 
